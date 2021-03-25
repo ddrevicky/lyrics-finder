@@ -1,0 +1,20 @@
+@import "../shared.css";
+
+.labeled-text {
+  white-space: nowrap;
+  margin-bottom: 4px;
+}
+
+.labeled-text p,
+.labeled-text h4,
+.labeled-text .icon {
+  display: inline;
+}
+
+.labeled-text h4 {
+  margin-right: 6px;
+}
+
+.labeled-text .icon {
+  margin-right: 6px;
+}

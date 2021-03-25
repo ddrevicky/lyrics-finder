@@ -1,0 +1,43 @@
+@import "../shared.css";
+
+.search-form {
+  padding: var(--base-padding);
+  padding-bottom: calc(2 * var(--base-padding));
+  margin-bottom: 40px;
+  border: var(--base-border);
+  color: var(--base-color);
+  text-align: center;
+}
+
+.search-form h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.music-icon {
+  margin-right: 16px;
+}
+
+.text-input {
+  padding: 8px;
+  border: var(--base-border);
+}
+
+.text-input:focus {
+  outline: solid lightgray 2px;
+}
+
+.form-button {
+  color: white;
+  background: #006ffe;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-top: 24px;
+  font-family: inherit;
+}

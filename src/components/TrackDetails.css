@@ -1,0 +1,36 @@
+@import "../shared.css";
+
+:root {
+  --padding: 16px;
+}
+
+.go-back-button {
+  background: var(--base-color);
+  color: white;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.track-title {
+  background-color: rgb(240, 240, 240);
+  padding: var(--padding);
+  outline: var(--base-border);
+  margin-bottom: 1px;
+}
+
+.track-name {
+  color: gray;
+}
+
+.track-text {
+  padding: var(--padding);
+  outline: var(--base-border);
+  margin-bottom: 24px;
+  white-space: pre-line;
+}
+
+.info-label {
+  padding: 8px var(--padding);
+  outline: var(--base-border);
+  margin-bottom: 1px;
+}

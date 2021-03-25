@@ -1,0 +1,22 @@
+@import "../shared.css";
+
+.tracks {
+  color: var(--base-color);
+}
+
+.tracks h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.tracks-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.spinner {
+  padding-top: 48px;
+  display: block;
+  margin: auto;
+}

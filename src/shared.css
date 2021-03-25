@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --base-color: #2e2e2e;
+  /* --base-color: indigo; */
+  --base-border: 1px solid rgb(220, 220, 220);
+  --base-padding: 20px;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+}

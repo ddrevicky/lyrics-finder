@@ -1,0 +1,13 @@
+@import "../shared.css";
+
+.header {
+  background: var(--base-color);
+  padding: 8px;
+  text-align: center;
+}
+
+.header-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
